@@ -1,0 +1,54 @@
+body {
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+nav {
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#020617;
+}
+
+nav a {
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:50px;
+}
+
+textarea {
+  width:80%;
+  height:100px;
+  border-radius:10px;
+}
+
+button {
+  padding:12px 20px;
+  background:linear-gradient(45deg,#6366f1,#8b5cf6);
+  border:none;
+  color:white;
+  border-radius:10px;
+}
+
+iframe {
+  width:95%;
+  height:400px;
+  margin:20px;
+}
+
+/* simple animation */
+.hero h1 {
+  animation: fade 2s infinite alternate;
+}
+
+@keyframes fade {
+  from {opacity:0.5;}
+  to {opacity:1;}
+}
