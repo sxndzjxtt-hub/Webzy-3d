@@ -322,7 +322,7 @@ const Hero = ({ user, setPage }) => {
     setLoading(true);
     setGenerated(null);
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("https://webzy-3d-backend-production.up.railway.app/generate", { {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
